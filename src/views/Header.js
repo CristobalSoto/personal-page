@@ -1,8 +1,3 @@
-import {
-  Link,
-  BrowserRouter
-} from "react-router-dom";
-
 const tittleStyle = {
   'background': '-webkit-linear-gradient(#0367a1, #2cc98d)',
   'WebkitBackgroundClip': 'text',
@@ -14,9 +9,7 @@ const tittleStyle = {
 const Header = () => {
   return (
     <h1 style={tittleStyle}>
-      <BrowserRouter>
-        <Link to="/">Cristóbal Soto</Link>
-      </BrowserRouter>
+        <a  href="/">Cristóbal Soto</a >
     </h1>
   )
 }

@@ -1,3 +1,5 @@
+import ContactMe from '../components/ContactMe'
+
 const divStyle = {
   backgroundColor: '#5ebedb',
   width: '100%',
@@ -8,33 +10,12 @@ const divStyle = {
   color: 'white'
 }
 
-const containerStyle = {
-  display: 'flex',
-  justifyContent: 'space-around'
-}
 
 const Footer = () => {
   return (
     <div style={divStyle}>
       Contact information
-      <div style={containerStyle}>
-        <div>
-        <ul>
-          <li>
-            <a href="/experience">My Experience</a>
-          </li>
-          <li>
-            <a href="/hireme">Faq Recruiters</a>
-          </li>
-          <li>
-            <a href="/more">More about myself</a>
-          </li>
-        </ul>
-        </div>
-        <div>
-          Right
-        </div>
-      </div>
+      <ContactMe />
     </div>
   )
 }
