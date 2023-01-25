@@ -70,3 +70,11 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+#certificationsList{
+  display: block;
+}
+
+#certificationsList > li > a {
+  font-size: 1vw;
+}
