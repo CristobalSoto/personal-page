@@ -11,7 +11,7 @@ const Home = () => (
       <div>
         <h1>Hello!</h1>
         <p>Welcome to my web page, in this page you can find information about my experiences, preferences and quirks.</p>
-        <p>I am a software developer, I think my level is at semi senior but I have a 
+        <p>I am a software developer, my level is at semi senior and I have a 
           variety of experience with a lots of different programming languages</p>
         <p>I am big nerd regarding programming and my hobbies.</p>
         <p>If you want to know more about myself take a look around and if you think I will be a good fit for in the offer you have contact me.</p>

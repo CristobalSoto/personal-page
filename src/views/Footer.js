@@ -14,7 +14,6 @@ const divStyle = {
 const Footer = () => {
   return (
     <div style={divStyle}>
-      Contact information
       <ContactMe />
     </div>
   )

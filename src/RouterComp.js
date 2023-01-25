@@ -22,20 +22,20 @@ const RouterComp = () => (
       <nav >
         <ul style={navStyle}>
           <li>
-            <Link to="/experience">My Experience</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/hireme">Faq Recruiters</Link>
+            <Link to="/experience">About Me</Link>
           </li>
           <li>
-            <Link to="/more">More about myself</Link>
+            <Link to="/faq">FAQ Recruiters</Link>
           </li>
         </ul>
       </nav>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/more" element={<More />}/>
-        <Route path="/hireme" element={<Faq />}/>
+        <Route path="/faq" element={<Faq />}/>
         <Route path="/experience" element={<Experience />} />
       </Routes>
     </div>
